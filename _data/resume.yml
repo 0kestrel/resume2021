@@ -35,8 +35,8 @@ main: #主要内容，
     sub: 本科
     detail: 软件工程
 
-- type: 技术栈
-  # name: "技能"
+- type: skills
+  name: "技术栈"
   content:
   - title: 前端
     items: #itmems 可以小块的方式显示
@@ -49,27 +49,29 @@ main: #主要内容，
     - 熟练使用Linux,熟悉nginx/tomcat等容器的配置和部署
     - 有良好的编程习惯,对数据结构和算法有一定掌握
     - 了解分布式系统原理
+  - title: 其他
+    items:
+    - 熟练使用git/svn等版本控制工具
+    - 熟练使用Jenkins/Jmeter等ci/cd工具
 
 - type: experience
-  name: 经验
+  name: 工作经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 初级开发工程师
+    sub: 广州极点三维信息科技有限公司
+    duration: "2017年3月 - 2018年6月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+    summary: 后端开发
+    detail: 参与diyhome的后端开发、维护以及线上技术支持,主要负责开发与维护后台产品数据管理，用户管理及相关数据统计功能,参与打通客户端到工厂生产流程的数据流通,为小组部署ci/cd环境,对项目历史sql进行优化.
+   
+  - title: 中级开发工程师
+    sub: 广州同鑫科技有限公司
+    duration: "2019年1月 - 2021年7月"
+    tags:
+    summary: 后端开发
+    detail: 负责T9IMS前后端的开发与维护,负责T9IMS与企业微信对接的开发与维护,负责T9IMS与硬件设备的开发与维护,负责T9IMS小程序的开发,参与T9IMS架构设计.
+    
+    
 - type: projects
   name: Projects
   content:
