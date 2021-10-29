@@ -7,48 +7,48 @@ name: "陈煜东"
 jobtitle: "Java开发工程师" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
-#联系方式
+#个人信息
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+- text: "y543da@gmail.com" #文本内容
+  href: 'mailto:y543da@gmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
+- text: "17620752065"
+  href: 'tel:17620752065'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
+- text: "cyd.life"
+  href: 'http://cyd.life'
   icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
+- text: "Evan Chan"
+  href: 'https://github.com/genesisenvanc'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-  # - text: "地址"
+- text: "地址"
   #   icon: "icons/location.svg"
 
-#main下面是主体内容，类别条数不限
-main: #简历主要内容，
+#下面是主体内容
+main: #主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 中南林业科技大学
+    duration: "2011年9月 - 2017年6月"
+    sub: 本科
+    detail: 软件工程
 
-- type: skills
+- type: 技术栈
   # name: "技能"
   content:
-  - title: 编程语言
+  - title: 前端
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - 熟悉JavaScript,能够编写基础页面功能及调试
+  - title: 后端
+    items:
+    - 掌握Java基本语法与标准库,熟悉springboot
+    - 掌握C#基本语法与标准库,熟悉.net core与.net framework4
+    - 熟悉mysql,熟悉SQL server
+    - 熟练使用Linux,熟悉nginx/tomcat等容器的配置和部署
+    - 有良好的编程习惯,对数据结构和算法有一定掌握
+    - 了解分布式系统原理
 
 - type: experience
   name: 经验
