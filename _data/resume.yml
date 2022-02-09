@@ -69,9 +69,6 @@ main: #主要内容，
     - 为小组提供部署ci/cd环境及测试工具，先后为小组部署jinkens、jemter、rsync等工具，有效提高了小组工作效率;
     - 对项目历史慢sql进行优化，将长连表sql拆解为短sql查询后进行数据拼装，将数据生成速度从10+秒提升至2秒以内;
 
-- type: experience2
-  name: 工作经历
-  content:
   - title: 广州同鑫科技有限公司
     sub: 
     - 产品研发部 后端开发(Java/C#)
