@@ -18,12 +18,13 @@ contact: #联系方式连接等3~5行
 - text: "cyd.life"
   href: 'http://cyd.life'
   icon: 'icons/web.svg'
-- text: "Evan Chan"
+- text: "genesisenvanc"
   href: 'https://github.com/genesisenvanc'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "地址"
-  #   icon: "icons/location.svg"
+- text: "genesisenvanc.github.io/resume2021/"
+  href: "https://genesisenvanc.github.io/resume2021/"
+  icon: "icons/location.svg"
 
 #下面是主体内容
 main: #主要内容，
@@ -122,13 +123,13 @@ main: #主要内容，
 #  - 如果有可以继续添加
 
 #footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
+#footer: #脚注多组
+#  print: #打印版markdown或者html
+#  screen:
 #  - text: "简历脚注"
   #   href: '/'
-  - text: "在线简历"
-    href: "https://genesisenvanc.github.io/resume2021/"
+#  - text: "在线简历"
+#    href: "https://genesisenvanc.github.io/resume2021/"
 
 #页面额外js脚本，如xx统计
 #scripts:
