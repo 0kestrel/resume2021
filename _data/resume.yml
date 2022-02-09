@@ -57,19 +57,19 @@ main: #主要内容，
 - type: experience
   name: 工作经历
   content:
-  - title: 初级开发工程师
-    sub: 广州极点三维信息科技有限公司
+  - title: 后端开发(Java)
+    sub: 
+    - 广州极点三维信息科技有限公司
+    - 初级开发工程师
     duration: "2017年3月 - 2018年6月"
-    tags:
-    summary: 后端开发
     detail: 参与diyhome的后端开发、维护以及线上技术支持,主要负责开发与维护后台产品数据管理，用户管理及相关数据统计功能,参与打通客户端到工厂生产流程的数据流通,为小组部署ci/cd环境,对项目历史sql进行优化.
    
-  - title: 中级开发工程师
-    sub: 广州同鑫科技有限公司
+  - title: 后端开发(Java/C#)
+    sub: 
+    - 广州同鑫科技有限公司.
+    - 中级开发工程师
     duration: "2019年3月 - 2021年7月"
-    tags:
-    summary: 后端开发
-    detail: 负责T9IMS前后端的开发与维护,负责T9IMS与企业微信对接的开发与维护,负责T9IMS与硬件设备的开发与维护,负责T9IMS小程序的开发,参与T9IMS架构设计.
+    detail: 负责T9EHR前后端的开发与维护,负责T9EHR与企业微信对接的开发与维护,负责T9EHR与硬件设备的开发与维护,负责T9EHR小程序的开发,参与T9EHR架构设计.
     
     
 #- type: projects
