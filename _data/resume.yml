@@ -30,10 +30,10 @@ main: #主要内容，
 - type: education #类别为ID
   name: 教育背景 #显示名称
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 中南林业科技大学
-    duration: "2011年9月 - 2017年6月"
-    sub: 本科
-    detail: 软件工程
+  - title: 中南林业科技大学  软件工程
+#    duration: 
+    sub: 本科  2011年9月 - 2017年6月
+#    detail: 
 
 - type: skills
   name: "技术栈"
