@@ -30,9 +30,9 @@ main: #主要内容，
 - type: education #类别为ID
   name: 教育背景 #显示名称
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 中南林业科技大学  软件工程
+  - title: 中南林业科技大学  软件工程  本科
 #    duration: 
-    sub: 本科  2011年9月 - 2017年6月
+    sub: 2011年9月 - 2017年6月
 #    detail: 
 
 - type: skills
@@ -53,7 +53,7 @@ main: #主要内容，
     - 熟练使用git/svn等版本控制工具
     - 熟练使用Jenkins等ci/cd工具
 
-- type: experience
+- type: experience1
   name: 工作经历
   content:
   - title: 广州极点三维信息科技有限公司
@@ -67,7 +67,10 @@ main: #主要内容，
     - 参与打通客户端到工厂生产流程的数据流通，产品端将工厂生产文件录入系统，生成json并保存，后端负责将json拆解传递至客户端，以及将前端传递的设计方案拆解成家具组件已对接工厂生产系统;
     - 为小组提供部署ci/cd环境及测试工具，先后为小组部署jinkens、jemter、rsync等工具，有效提高了小组工作效率;
     - 对项目历史慢sql进行优化，将长连表sql拆解为短sql查询后进行数据拼装，将数据生成速度从10+秒提升至2秒以内;
-   
+
+- type: experience2
+  name: 工作经历
+  content:
   - title: 广州同鑫科技有限公司
     sub: 
     - 产品研发部 后端开发(Java/C#)
