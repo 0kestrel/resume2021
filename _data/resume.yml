@@ -48,11 +48,10 @@ main: #主要内容，
     - 熟悉mysql,熟悉SQL server
     - 熟练使用Linux,熟悉nginx/tomcat等容器的配置和部署
     - 有良好的编程习惯,对数据结构和算法有一定掌握
-    - 了解分布式系统原理
   - title: 其他
     items:
     - 熟练使用git/svn等版本控制工具
-    - 熟练使用Jenkins/Jmeter等ci/cd工具
+    - 熟练使用Jenkins等ci/cd工具
 
 - type: experience
   name: 工作经历
