@@ -66,43 +66,43 @@ main: #主要内容，
    
   - title: 中级开发工程师
     sub: 广州同鑫科技有限公司
-    duration: "2019年1月 - 2021年7月"
+    duration: "2019年3月 - 2021年7月"
     tags:
     summary: 后端开发
     detail: 负责T9IMS前后端的开发与维护,负责T9IMS与企业微信对接的开发与维护,负责T9IMS与硬件设备的开发与维护,负责T9IMS小程序的开发,参与T9IMS架构设计.
     
     
-- type: projects
-  name: Projects
-  content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+#- type: projects
+#  name: 项目经历
+#  content:
+#  - title: diyhome
+#    duration: "2017年3月 - 2018年6月"
+#    detail: diyhome是一款3D实时设计软件.
+#    sub: 维护者
+#  - title: T9EHR
+#    summary: Projects' introduction or summary
+#    detail:
+#      md: _data/demo.md
+#    sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+#others: #其他列表显示
+#- type: others #ID可以为空
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - title: "加粗:"
+#    text: "列表项二"
+#  - title: "兴趣:"
+#    items: #单行列表
+#    - 睡觉
+#    - 吃饭
+#    - coding
+#  - title: 列表
+#    list:
+#    - 第一项
+#    - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -110,15 +110,15 @@ others: #其他列表显示
 #  - 如果有可以继续添加
 
 #footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
-  - text: "简历脚注"
+#footer: #脚注多组
+#  print: #打印版markdown或者html
+#  screen:
+#  - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+#  - text: "Made with &hearts; by NewFuture"
+#    href: "https://github.com/NewFuture/CV/"
 
 #页面额外js脚本，如xx统计
-scripts:
+#scripts:
 #- src: "assets/js/resume.js"
 #  defer: defer #可以设置defer或者sync异步加载
