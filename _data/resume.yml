@@ -4,7 +4,7 @@
 title: "简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "陈煜东"
-jobtitle: "Java开发工程师" #可空不显示
+jobtitle: "开发工程师" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #个人信息
@@ -22,8 +22,8 @@ contact: #联系方式连接等3~5行
   href: 'https://github.com/genesisenvanc'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "genesisenvanc.github.io/resume2021/"
-  href: "https://genesisenvanc.github.io/resume2021/"
+- text: "genesisenvanc.github.io/resume/"
+  href: "https://genesisenvanc.github.io/resume/"
   icon: "icons/location.svg"
 
 #下面是主体内容
@@ -41,7 +41,7 @@ main: #主要内容，
   content:
   - title: 前端
     items: #itmems 可以小块的方式显示
-    - 熟悉JavaScript,能够编写基础页面功能及调试
+    - 熟悉JavaScript,了解bootstrap,了解angularJS,能够编写基础页面功能及调试
   - title: 后端
     items:
     - 掌握Java基本语法与标准库,熟悉springboot
@@ -53,6 +53,7 @@ main: #主要内容，
     items:
     - 熟练使用git/svn等版本控制工具
     - 熟练使用Jenkins等ci/cd工具
+    - 熟练使用Jeter等测试工具
 
 - type: experience1
   name: 工作经历
@@ -77,7 +78,7 @@ main: #主要内容，
     - 负责T9EHR前后端的开发与维护，主要使用C#开发，开发人事管理、组织管理、考勤管理、薪资管理、培训管理、系统设置等模块，完成子功能需求百余个，对产品实施同事提供支持数百次;
     - 负责T9EHR与企业微信对接的开发与维护，主要通过Senparc框架对接企业微信相关功能，同步T9EHR和企业微信数据;
     - 负责T9EHR与硬件设备的开发与维护，主要对接中控、汉王全系列考勤/门禁机器，实现硬件数据采集、数据下发、数据同步等功能，以及相关权限功能，并提供数据导入/导出;
-    - 负责T9EHR小程序的开发，主要使用Java开发，实现T9EHR日报小程序，并将小程序登录与T9EHR登录打通;
+    - 负责T9EHR小程序的开发，主要使用Java开发，实现T9EHR相关小程序，并将小程序与T9EHR打通;
     - 参与T9EHR架构设计，优化旧代码架构，抽取工具类和公用方法，将原有权限管理通过aop切面进行统一管理，在IbatisNet和实际业务代码间添加中间层，实现用户自定义设计web页面等功能;
     - 负责维护T8EHR项目，本项目是DevExpress框架下开发的桌面端应用，主要进行维护和轻量功能开发;
     
