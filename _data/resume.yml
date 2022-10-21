@@ -53,7 +53,7 @@ main: #主要内容，
     items:
     - 熟练使用git/svn等版本控制工具
     - 熟练使用Jenkins等ci/cd工具
-    - 熟练使用Jeter等测试工具
+    - 熟练使用Jmeter等测试工具
 
 - type: experience1
   name: 工作经历
